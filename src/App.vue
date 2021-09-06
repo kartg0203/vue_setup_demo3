@@ -1,9 +1,17 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">原生Vue</router-link> |
+    <router-link to="/about">組合式API</router-link>｜
+    <router-link to="/setup">入口setup</router-link>｜
+    <router-link to="/comapi">常用api</router-link>｜
+    <router-link to="/computed">計算屬性</router-link>｜
+    <router-link to="/watch">監聽屬性</router-link>｜
+    <router-link to="/lifehook">生命週期</router-link>｜
+    <router-link to="/rootapp">provide／inject</router-link>｜
+    <router-link to="/routerapi">router api</router-link>｜
+    <router-link to="/vuexapi">vuex api</router-link>｜
   </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
